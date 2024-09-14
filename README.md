@@ -4,6 +4,8 @@
 
 This project is a lightweight, terminal-based text editor written in Go. It provides a vim-like interface with basic text editing capabilities, search functionality, and file management features. The editor is designed to be efficient and easy to use, making it suitable for quick edits and working in terminal environments.
 
+![Demo](demo.png)
+
 ## Features
 
 - Vim-like modal editing (Normal, Insert, Search modes)
