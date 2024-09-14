@@ -28,7 +28,7 @@ This project is a lightweight, terminal-based text editor written in Go. It prov
 1. Clone the repository:
    ```
    git clone https://github.com/IvanGael/Go-terminal-editor.git
-   cd go-terminal-editor
+   cd Go-terminal-editor
    ```
 
 2. Install dependencies:
