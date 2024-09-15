@@ -493,7 +493,7 @@ func (m model) View() string {
 	if m.modified {
 		modifiedInfo = "[+]"
 	}
-	statusBar := statusStyle.Render(fmt.Sprintf("%s %s %s %s %s", modeInfo, m.statusMsg, fileInfo, cursorInfo, modifiedInfo))
+	statusBar := statusStyle.Render(fmt.Sprintf("%s {%s} %s %s %s", modeInfo, m.statusMsg, fileInfo, cursorInfo, modifiedInfo))
 
 	s.WriteString(statusBar)
 
